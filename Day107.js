@@ -8,8 +8,8 @@ function secondLargest(nums){
         largest=nums[0];
         second=nums[1];
      }else{
-        largest=nums[1];//80
-        second=nums[0];//50
+        largest=nums[1];//80,
+        second=nums[0];//50,
      }
 
      for(let i=2;i<nums.length;i++){
