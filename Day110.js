@@ -10,13 +10,15 @@
             }
         }
 
+        let val=""
+
         for(let i =0;i<str.length;i++){
             if(obj[str[i]]===1){
-                return str[i]
+                val+=str[i]
             }
                 
             }
-            return null
+            return val?val:null
             
         }
 
