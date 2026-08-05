@@ -10,7 +10,7 @@ function pattern22(n){
             let right=last-j;
            let min=top <left ?top  :left;
            min=min<bottom?min:bottom;
-           min=min<right?min:right
+           min=min<right?min:rightpa
 
 
            let value=n-min;
